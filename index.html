@@ -173,14 +173,15 @@
             align-items: center;
             background: #000000;
             position: relative;
-            overflow: hidden;
+            overflow: visible;
             z-index: 1;
         }
 
         .photo-section:first-of-type {
-            padding-top: 200px;
+            margin-top: 300px;
+            padding-top: 0;
             padding-bottom: 20px;
-            min-height: 80vh;
+            min-height: auto;
         }
 
         .photo-section:last-of-type {
@@ -250,8 +251,8 @@
         }
 
         .footer-text p {
-            font-size: 0.95rem;
-            color: #888888;
+            font-size: 0.75rem;
+            color: #555555;
             letter-spacing: 1px;
             line-height: 1.6;
             font-weight: 300;
@@ -282,9 +283,10 @@
             }
 
             .photo-section:first-of-type {
-                padding-top: 180px;
+                margin-top: 250px;
+                padding-top: 0;
                 padding-bottom: 15px;
-                min-height: 75vh;
+                min-height: auto;
             }
 
             .photo-section:last-of-type {
@@ -300,7 +302,7 @@
             }
 
             .footer-text p {
-                font-size: 0.88rem;
+                font-size: 0.7rem;
             }
         }
 
@@ -323,9 +325,10 @@
             }
 
             .photo-section:first-of-type {
-                padding-top: 150px;
+                margin-top: 200px;
+                padding-top: 0;
                 padding-bottom: 10px;
-                min-height: 70vh;
+                min-height: auto;
             }
 
             .photo-section:last-of-type {
@@ -349,7 +352,7 @@
             }
 
             .footer-text p {
-                font-size: 0.8rem;
+                font-size: 0.65rem;
                 padding: 0 15px;
             }
         }
@@ -371,7 +374,7 @@
         <div class="portfolio-bg-dollars" id="bgDollars"></div>
 
         <!-- Music Player - Autoplay -->
-        <audio id="bgMusic" autoplay loop>
+        <audio id="bgMusic" loop>
             <source src="yo.mp3" type="audio/mpeg">
         </audio>
 
